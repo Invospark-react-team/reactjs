@@ -1,12 +1,19 @@
 import React from "react";
 import Header from "./components/Header";
-import User from "./components/User";
+import Text from "./components/Text";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <User />
+      <Header
+      title="InvoSpark"
+      name="Mohammed"
+      gender="Male"
+      birthYear={1991}
+      />
+      <Text />
+      <Footer />
     </div>
   );
 };
