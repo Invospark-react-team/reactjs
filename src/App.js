@@ -6,12 +6,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div>
-      <Header
-      title="InvoSpark"
-      name="Mohammed"
-      gender="Male"
-      birthYear={1991}
-      />
+      <Header title="InvoSpark" name="Mohammed" gender="Male" birthYear={1991} />
       <Text />
       <Footer />
     </div>
